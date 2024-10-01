@@ -1,0 +1,92 @@
+.footer {
+    position: relative;
+    top: 370px;
+    height: 300px;
+    padding: 2rem;
+    border-radius: 40px;
+    margin-bottom: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .logo {
+    position: relative;
+    bottom: 10px;
+    flex: 1;
+  }
+  .legal ul{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .legal, .contact, .socials {
+    flex: 1;
+    width: max-content;
+    margin-left: 0;
+    font-size: 0.8rem;
+  }
+  
+  .legalText, .socialsText, .contactText{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 2;
+  }
+  
+  .socialsLinks {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socialsLink {
+    margin-bottom: 0.5rem;
+  }
+    
+  .contact p {
+    margin: 0;
+  }
+  
+  .socials ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .socials ul li {
+    margin: 0;
+  }
+  
+  .socials ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .socials ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .copyright {
+    position: absolute;
+    bottom: 120px;
+    flex: 1;
+    font-size: 0.6rem;
+    margin-top: 1rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+    }
+  
+    .logo, .legal, .contact, .socials, .copyright {
+      flex: none;
+      margin-bottom: 1rem;
+    }
+  }
+  
