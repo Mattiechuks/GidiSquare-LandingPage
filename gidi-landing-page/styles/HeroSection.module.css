@@ -1,61 +1,87 @@
 .heroSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color: #787878;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #787878;
+  padding: 1rem;
+}
+
+.heroText {
+  position: relative;
+  bottom: 70px;
+  font-size: 10rem;
+  font-weight: 900;
+  opacity: 0;
+  color: black;
+  line-height: 0.76em;
+  letter-spacing: -0.5rem;
+}
+
+.heroText1 {
+  color: #3282b5;
+}
+
+.heroText2 {
+  color: #0f5493;
+}
+
+.heroText3 {
+  color: #191919;
+}
+
+.heroText4 {
+  position: relative;
+  bottom: 50px;
+  font-size: 1.5rem;
+}
+
+.fadeIn {
+  animation: fadeIn 3s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
   }
-  
+}
+
+.downloadButtons {
+  position: relative;
+  bottom: 45px;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.downloadButtons button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
   .heroText {
-    position: relative;
-    bottom: 70px;
-    font-size: 10rem;
-    font-weight: bold;
-    opacity: 0;
-    color: black;
-    line-height: 0.76em;
-    letter-spacing: -13px;;
+    font-size: 6rem;
+    letter-spacing: -0.3rem;
   }
-  .heroText1{
-    color: #3282b5;
+
+  .heroText4 {
+    font-size: 1.2rem;
   }
-  .heroText2{
-    color: #0f5493;
-  }
-  .heroText3{
-    color: #191919;
-  }
-  .heroText4{
-    position: relative;
-    bottom: 50px;
-  }
-  
-  .fadeIn {
-    animation: fadeIn 3s forwards;
-  }
-  
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
-  }
-  
+
   .downloadButtons {
-    position: relative;
-    bottom: 45px;
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-  } 
-  
-  .downloadButtons button {
-    background-color: rgba(255, 255, 255, 0);
-    color: white;
-    border: none;
-    cursor: pointer;
+    flex-direction: column;
+    gap: 0.5rem;
   }
-  
+
+  .downloadButtons button {
+    width: 100%;
+    text-align: center;
+  }
+}

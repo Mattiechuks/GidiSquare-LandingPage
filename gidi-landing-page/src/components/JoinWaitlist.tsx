@@ -16,8 +16,8 @@ const JoinWaitlist = () => {
             <div className={styles.circle}></div>
             <Image
             src="/images/WaitListMan.png"
-            width={450}
-            height={450}
+            width={1050}
+            height={1050}
             alt="Logo"
             className={styles.manImage}
 					/>

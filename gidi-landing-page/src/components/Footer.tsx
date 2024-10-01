@@ -1,3 +1,5 @@
+"use client";
+
 import styles from '../../styles/Footer.module.css';
 import Image from 'next/image';
 
@@ -5,13 +7,13 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.logo}>
-      <Image
-            src="/images/gidisquareLogo.png"
-            width={70}
-            height={70}
-            alt="Logo"
-            className={styles.logo}
-					/>
+        <Image
+          src="/images/gidisquareLogo.png"
+          width={70}
+          height={70}
+          alt="Logo"
+          className={styles.logoImage}
+        />
       </div>
       <div className={styles.copyright}>
         <p>GidiSquare Limited 2024 & All rights reserved</p>
@@ -32,28 +34,26 @@ const Footer = () => {
         <ul className={styles.socialsLinks}>
           <li className={styles.socialsLink}><a href="https://facebook.com">
             <Image
-                src="/images/Facebook.png"
-                width={50}
-                height={50}
-                alt="Facebook-logo"
-                        /></a></li>
+              src="/images/Facebook.png"
+              width={50}
+              height={50}
+              alt="Facebook-logo"
+            /></a></li>
           <li className={styles.socialsLink}><a href="https://telegram.com">
             <Image
-                src="/images/Telegram.png"
-                width={50}
-                height={50}
-                alt="Telegram-logo"
-                        />
-            </a></li>
+              src="/images/Telegram.png"
+              width={50}
+              height={50}
+              alt="Telegram-logo"
+            /></a></li>
           <li className={styles.socialsLink}><a href="https://instagram.com">
             <Image
-                src="/images/Instagram.png"
-                width={40}
-                height={30}
-                alt="Instagram-logo"
-                className={styles.logo}
-                        />
-            </a></li>
+              src="/images/Instagram.png"
+              width={40}
+              height={30}
+              alt="Instagram-logo"
+              className={styles.logoImage}
+            /></a></li>
         </ul>
       </div>
     </footer>

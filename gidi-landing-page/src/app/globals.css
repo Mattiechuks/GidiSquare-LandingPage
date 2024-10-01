@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
-body {
+body, html {
   font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
 }
 
 @layer utilities {
@@ -12,3 +13,25 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  width: 5px;
+
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0f5393;
+  border-radius: 6px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+body.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+

@@ -1,10 +1,11 @@
-import Image from "next/image";
+import React, { useState } from "react";
 import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import AboutUs from "@/components/AboutUs";
 import AppPromotion from "@/components/AppPromotion";
 import JoinWaitlist from "@/components/JoinWaitlist";
 import Footer from "@/components/Footer";
+
 
 export default function Home() {
   return (
