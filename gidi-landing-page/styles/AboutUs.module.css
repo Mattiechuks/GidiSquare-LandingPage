@@ -1,0 +1,90 @@
+.aboutUsSection {
+    position: relative;
+    display: flex;
+    padding: 4rem 2rem;
+    background-color: #bed9f2;
+    border-radius: 20px;
+    background-size: cover;
+    color: #191919;
+    text-align: center;
+  }
+  
+  .aboutUsLeft{
+    width: 50%;
+  }
+  
+  .aboutPic1{
+    position: absolute;
+    top: 68px;
+    left: 240px;
+    z-index: 2;
+    width: 30%;
+    height: 75%;
+    border-radius: 40px;
+
+  }
+
+  
+  .aboutPic2{
+    position: absolute;
+    width: 35%;
+    bottom: 45px;
+    height: 85%;
+    border-radius: 40px;
+  }
+
+  .aboutUsRight{
+    position: relative;
+    left: 100px;
+    width: 30%;
+    text-align: left;
+  }
+  .aboutHeader {
+    position: relative;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    letter-spacing: 0;
+  }
+  .aboutHeaderU{
+    color: #368fe1;
+  }
+  
+  .aboutText {
+    font-size: 0.8rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .downloadButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .downloadButtons button {
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .aboutHeader  {
+      font-size: 2rem;
+    }
+  
+    .aboutText{
+      font-size: 1rem;
+    }
+  
+    .downloadButtons {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .downloadButtons button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
