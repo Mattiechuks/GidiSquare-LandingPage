@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import styles from '../../styles/NavBar.module.css';
+import Link from 'next/link';
 import Image from 'next/image';
 
 const NavBar = () => {
@@ -39,7 +40,7 @@ const NavBar = () => {
         )}
       </div>
       <ul className={`${styles.menu} ${isOpen ? styles.menuOpen : ''}`}>
-        <li className={styles.menuLink}>About us</li>
+        <li className={styles.menuLink}><Link href="/aboutUs">About</Link> us</li>
         <li className={styles.menuLink}>Trade Templates</li>
         <li className={styles.menuLink}>Discover Services</li>
         <li><button className={styles.joinButton}>Join as a Provider</button></li>
