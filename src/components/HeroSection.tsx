@@ -7,7 +7,9 @@ import { useEffect } from "react";
 const HeroSection = () => {
   useEffect(() => {
     const text = document.querySelector(`.${styles.heroText}`);
-    text.classList.add(styles.fadeIn);
+    if (text) {
+      text.classList.add(styles.fadeIn);
+    }
   }, []);
 
   return (
