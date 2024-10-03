@@ -21,7 +21,7 @@ const AppPromotion = () => {
         <div className={styles.downloadButtons}>
           <button>
             <Image
-              src="/images/Download-Apple-App.png"
+              src="/images/apple.b7ff230c.svg"
               width={150}
               height={50}
               alt="Download on the App Store"
@@ -30,7 +30,7 @@ const AppPromotion = () => {
           </button>
           <button>
             <Image
-              src="/images/Download-Google-App.png"
+              src="/images/google.a72b620f.svg"
               width={150}
               height={50}
               alt="Get it on Google Play"

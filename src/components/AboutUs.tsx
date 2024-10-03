@@ -26,7 +26,7 @@ const AboutUs = () => {
         <div className={styles.downloadButtons}>
           <button>
             <Image
-              src="/images/Download-Apple-App.png"
+              src="/images/apple.b7ff230c.svg"
               width={100}
               height={100}
               alt="Download on the App Store"
@@ -35,7 +35,7 @@ const AboutUs = () => {
           </button>
           <button>
             <Image
-              src="/images/Download-Google-App.png"
+              src="/images/google.a72b620f.svg"
               width={100}
               height={100}
               alt="Get it on Google Play"
