@@ -67,7 +67,7 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   .heroText {
-    font-size: 3rem;
+    font-size: 5rem;
     letter-spacing: -0.3rem;
   }
 
@@ -81,7 +81,7 @@
   }
 
   .downloadButtons button {
-    width: 120%;
+    width: 100%;
     text-align: center;
   }
 }
