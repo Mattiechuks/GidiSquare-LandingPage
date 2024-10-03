@@ -27,19 +27,19 @@ const AboutUs = () => {
           <button>
             <Image
               src="/images/apple.b7ff230c.svg"
-              width={100}
-              height={100}
+              width={150}
+              height={50}
               alt="Download on the App Store"
-              className={styles.logo}
+              className={styles.downloadButton}
             />
           </button>
           <button>
             <Image
               src="/images/google.a72b620f.svg"
-              width={100}
-              height={100}
+              width={150}
+              height={50}
               alt="Get it on Google Play"
-              className={styles.logo}
+              className={styles.downloadButton}
             />
           </button>
         </div>

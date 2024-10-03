@@ -51,17 +51,18 @@
 }
 
 .downloadButtons {
-  position: relative;
-  bottom: 45px;
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 1.5rem;
 }
 
-.downloadButtons button {
-  background-color: transparent;
+.downloadButton {
   border: none;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.downloadButton:hover {
+  transform: scale(1.1);
 }
 
 /* Responsive Styles */
@@ -80,7 +81,7 @@
     gap: 0.5rem;
   }
 
-  .downloadButtons button {
+  .downloadButton {
     width: 100%;
     text-align: center;
   }
