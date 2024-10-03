@@ -1,0 +1,43 @@
+
+.primary {
+    color: #d6c7c7;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    color: white;
+  }
+  
+  .contact {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: white;
+
+  }
+  
+  .socials {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .image {
+    color: transparent;
+  }
+
+  @media (min-width: 640px) {
+    
+    .contact{
+        width: auto;
+    }
+    .links{margin-bottom: 0;}
+
+    .section{
+        flex-direction: column;
+    }
+  }
+
+
+  
